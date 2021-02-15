@@ -12,6 +12,7 @@ class App extends Component {
     this.state = {
       dishes: DISHES
     };
+    console.log("Comments", this.state.dishes.comments);
   }
   render() {
     return (
